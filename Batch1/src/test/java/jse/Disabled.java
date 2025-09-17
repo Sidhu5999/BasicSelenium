@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Disabled {
 public static void main(String[] args) {
-	
+	//pull back
 	WebDriver driver = new ChromeDriver();
 	driver.manage().window().maximize();
 		
@@ -30,3 +30,4 @@ public static void main(String[] args) {
 		jse.executeScript("arguments[0].click()",ele);
 }
 }
+
